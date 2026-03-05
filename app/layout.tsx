@@ -35,7 +35,7 @@ export default function RootLayout({
       <body
         className={`${bebasNeue.variable} antialiased`}
       >
-        <header className="flex items-center justify-around p-4 border-b rounded-md  border-b-yellow-500">
+        <header className="flex items-center justify-center p-4 border-b rounded-md border-b-yellow-500">
           <Logo className="w-60 h-14"/>
         </header>
         {children}

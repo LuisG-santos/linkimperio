@@ -29,7 +29,8 @@ export function Logo({ className }: LogoProps) {
         y="75%"
         textAnchor="middle"
         dominantBaseline="middle"
-        fontSize="18"
+        fontSize="23"
+        fontWeight="500"
         letterSpacing="4"
         fill="#6b8e23"
         style={{ fontFamily: "Bebas Neue, serif" }}
@@ -44,7 +45,7 @@ export function Logo({ className }: LogoProps) {
         x2="140"
         y2="82"
         stroke="#c9a227"
-        strokeWidth="2"
+        strokeWidth="4"
       />
 
       {/* Linha decorativa direita */}
@@ -54,7 +55,7 @@ export function Logo({ className }: LogoProps) {
         x2="340"
         y2="82"
         stroke="#c9a227"
-        strokeWidth="2"
+        strokeWidth="4"
       />
     </svg>
     )

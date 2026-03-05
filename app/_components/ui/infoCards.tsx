@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Button } from "./button";
-import { Dialog, DialogContent, DialogTrigger } from "./dialog";
+import { Dialog, DialogClose, DialogContent, DialogTitle, DialogTrigger } from "./dialog";
 import { Card, CardContent, CardFooter, CardHeader } from "./card";
 import { title } from "process";
 const InfoCards = () => {
@@ -91,7 +91,8 @@ const InfoCards = () => {
             </Button>
           </DialogTrigger>
 
-          <DialogContent className="grid grid-cols-2 max-h-[80vh] overflow-y-auto">
+          <DialogContent className="grid grid-cols-2 max-h-[90vh] pt-16 overflow-y-auto">
+            
             {ervasData.map((item, index) => (
               <Card key={index}>
 
@@ -106,7 +107,7 @@ const InfoCards = () => {
                   ></img>
                 </CardContent>
 
-                <CardFooter><h2 className="text-xl font-bebas-neue">{price}</h2></CardFooter>
+                <CardFooter className="border-t flex justify-center border-zinc-200"><h2 className="text-2xl justify-center font-bebas-neue">{price}</h2></CardFooter>
 
               </Card>
             ))}
