@@ -14,7 +14,7 @@ export default function Home() {
             <h1 className="font-bebas-neue text-3xl text-white">
             Bem-vindo ao Império das Ervas
           </h1>
-            <p className="font-bebas-neue text-xl text-white underline decoration-white">
+            <p className="font-bebas-neue text-xl text-white decoration-white">
             ⎯ Fale conosco para mais informações. ⎯
           </p>
           </div>
